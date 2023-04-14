@@ -503,32 +503,62 @@
     right: 0;
   }
   
-  /* ================= FRIEND REQUESTS =================== */
-  .right .friend-requests {
-    margin-top: 1rem;
+  /* ================= FRIEND =================== */
+  .card {
+    height: max-content;
+    position: relative;
+    top: 15vh;
+    bottom: 0;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 0.5em;
   }
-  
-  .right .friend-requests h4 {
-    color: var(--color-gray);
-    margin: 1rem 0;
+  .card .img-container {
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: -80px auto 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 0.3em #ffffff, 0 0 0 0.9em #5074f3;
+    border-radius: 50%;
   }
-  
-  .right .request {
-    background: var(--color-white);
-    padding: var(--card-padding);
-    border-radius: var(--card-border-radius);
-    margin-bottom: 0.7rem;
+  .img-container img {
+    width: 100%;
+    border-radius: 50%;
   }
-  
-  .right .request .info {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+
+  .next button{
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 85px;
+    bottom: 20px;
+    background: var(--color-primary);
+    color: #ffffff;
+    font-weight: 400;
   }
-  
-  .right .request .action {
-    display: flex;
-    gap: 1rem;
+  .card h2 {
+    margin-top: 1.8em;
+    font-weight: 600;
+    color: #000341;
+  }
+  .card h3,
+  .card h4 {
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    margin-top: 0.5em;
+    font-weight: 300;
+    color: #90919e;
+  }
+  .card i {
+    color: #5074f3;
+    margin-right: 0.3em;
+  }
+  .card h4 {
+    margin-top: 0.4em;
   }
   
   /* ======================== THEME CUSTOMIZATION ========================== */
